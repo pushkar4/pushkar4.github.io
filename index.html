@@ -7,23 +7,89 @@
         
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
-
         
         <title>Welcome | Pushkar Sharma</title>
 
         <link rel="stylesheet" href="css/reset.css">
-
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
         <link rel="stylesheet" id="size-stylesheet" href="css/wide.css">
         <link rel="stylesheet" href="css/typed.css">
+    </head>
+    <body>
+        <div class="bannercontent">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center col">
+                        <h1 class="tagline">
+                            <br/>
+                            <span id="typed"></span>
+                        </h1>
+                        <h3 class="sub-tagline">Software Development Engineer at <a href="https://www.apptio.com/">Apptio</a></h3>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="row justify-content-center">
+                    <div class="text-center col-lg-2">
+                        <a href="activities.html">
+                            <i class="fas fa-cube fa-4x"></i>
+                            <br/>
+                            <p class="link-text">Activities</p>
+                        </a>
+                    </div>
+                    <div class="text-center col-lg-2">
+                        <a href="projects.html">
+                            <i class="fas fa-code fa-4x"></i>
+                            <br/>
+                            <p class="link-text">Projects</p>
+                        </a>
+                    </div>
+                    <div class="text-center col-lg-2">
+                        <a href="https://www.linkedin.com/in/pushkar4">
+                            <i class="fas fa-cloud-download-alt fa-4x"></i>
+                            <br/>
+                            <p class="link-text">Resume</p>
+                        </a>
+                    </div>
+                    <hr class="col-lg-6" />
+                </div>
+				<br/>
+                <div class="row justify-content-center">
+                    <div class="text-center col-lg-2">
+                        <a href="https://github.com/pushkar4">
+                            <i class="fab fa-github fa-4x"></i>
+                            <br/>
+                            <p class="link-text">GitHub</p>
+                        </a>
+                    </div>
+                    <div class="text-center col-lg-2">
+                        <a href="https://www.linkedin.com/in/pushkar4">
+                            <i class="fab fa-linkedin fa-4x"></i>
+                            <br/>
+                            <p class="link-text">LinkedIn</p>
+                        </a>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="row justify-content-center">
+                    <div class="text-center col-lg">
+                        <a href="index.html">
+                        <img src="img/mypic.jpg" class="rounded-circle mypic-bar" width="18%" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/8ef6f24df0.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="js/typed.js"></script>
-        
+        <script src="js/resolution-setter.js"></script>
         <script>
-            $(function(){
+//            $(function(){
+            $(document).ready(function() {
                 $("#typed").typed({
                     strings: ["Hi, there...", "Welcome to my Website.", "I'm <b>Pushkar Sharma.</b>"],
                     typeSpeed: 30,
@@ -39,126 +105,6 @@
                     $("#typed").typed('reset');
                 });
             });
-            function newTyped(){ /* A new typed object */ }
-            function foo(){ console.log("Callback"); }
         </script>
-    </head>
-
-    <body>
-        <div class="bannercontent">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center col">
-                        <h1 class="tagline">
-                            <br/>
-                            <span id="typed"></span>
-                        </h1>
-
-                        <h3 class="sub-tagline">Software Development Engineer at <a href="https://www.apptio.com/">Apptio</a></h3>
-                    </div>
-                </div>
-
-                <br/>
-                <br/>
-
-                <div class="row justify-content-center">
-                    <div class="text-center col-lg-2">
-                        <a href="activities.html">
-                            <i class="fas fa-cube fa-4x"></i>
-                            <br/>
-                            <p class="link-text">Activities</p>
-                        </a>
-                    </div>
-
-                    <div class="text-center col-lg-2">
-                        <a href="projects.html">
-                            <i class="fas fa-code fa-4x"></i>
-                            <br/>
-                            <p class="link-text">Projects</p>
-                        </a>
-                    </div>
-
-                    <div class="text-center col-lg-2">
-                        <a href="https://www.linkedin.com/in/pushkar4">
-                            <i class="fas fa-cloud-download-alt fa-4x"></i>
-                            <br/>
-                            <p class="link-text">Resume</p>
-                        </a>
-                    </div>
-
-                    <hr class="col-lg-6" />
-                </div>
-                
-				<br/>
-                
-                <div class="row justify-content-center">
-                    <div class="text-center col-lg-2">
-                        <a href="https://github.com/pushkar4">
-                            <i class="fab fa-github fa-4x"></i>
-                            <br/>
-                            <p class="link-text">GitHub</p>
-                        </a>
-                    </div>
-
-                    <div class="text-center col-lg-2">
-                        <a href="https://www.linkedin.com/in/pushkar4">
-                            <i class="fab fa-linkedin fa-4x"></i>
-                            <br/>
-                            <p class="link-text">LinkedIn</p>
-                        </a>
-                    </div>
-                </div>
-
-                <br/>
-                <br/>
-                
-                <div class="row justify-content-center">
-                    <div class="text-center col-lg">
-                        <a href="index.html">
-                        <img src="img/mypic.jpg" class="rounded-circle mypic-bar" width="18%" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-<!--
-        <div class="feature-box who-am-i">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                    	<br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <h4>About me...</h4>
-                        <hr style="border-color:black;">
-
-                        <p>Hi! I'm Pushkar Sharma.</p> 
-                        
-                        <p>Currently, I'm employed with Apptio.</p>
-
-                        <p>Have a look at the applications I've built, or check out the website.</p>
-                       
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>            
-                    </div>
-                </div>
-            </div>
-        </div>
--->
-
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        
-        <script src="js/resolution-setter.js"></script>
     </body>
 </html>
