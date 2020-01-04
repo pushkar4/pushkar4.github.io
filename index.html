@@ -5,12 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
         
         <title>Welcome | Pushkar Sharma</title>
 
-        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" id="size-stylesheet" href="css/wide.css">
         <link rel="stylesheet" href="css/typed.css">
@@ -20,11 +21,12 @@
             <div class="container">
                 <div class="row">
                     <div class="text-center col">
-                        <h1 class="tagline">
-                            <br/>
-                            <span id="typed"></span>
-                        </h1>
-                        <h3 class="sub-tagline">Software Development Engineer at <a href="https://www.apptio.com/">Apptio</a></h3>
+                        <p class="tagline">
+                            <span id="typed">
+                                <i class="far fa-grin-beam"></i>
+                            </span>
+                        </p>
+                        <p class="sub-tagline">Software Development Engineer at <a href="https://www.apptio.com/"><b>Apptio</b></a></p>
                     </div>
                 </div>
                 <br/>
@@ -32,21 +34,21 @@
                 <div class="row justify-content-center">
                     <div class="text-center col-lg-2">
                         <a href="activities.html">
-                            <i class="fas fa-cube fa-4x"></i>
+                            <i class="fas fa-cube fa-3x"></i>
                             <br/>
                             <p class="link-text">Activities</p>
                         </a>
                     </div>
                     <div class="text-center col-lg-2">
                         <a href="projects.html">
-                            <i class="fas fa-code fa-4x"></i>
+                            <i class="fas fa-code fa-3x"></i>
                             <br/>
                             <p class="link-text">Projects</p>
                         </a>
                     </div>
                     <div class="text-center col-lg-2">
                         <a href="https://www.linkedin.com/in/pushkar4">
-                            <i class="fas fa-cloud-download-alt fa-4x"></i>
+                            <i class="fas fa-cloud-download-alt fa-3x"></i>
                             <br/>
                             <p class="link-text">Resume</p>
                         </a>
@@ -57,14 +59,14 @@
                 <div class="row justify-content-center">
                     <div class="text-center col-lg-2">
                         <a href="https://github.com/pushkar4">
-                            <i class="fab fa-github fa-4x"></i>
+                            <i class="fab fa-github fa-3x"></i>
                             <br/>
                             <p class="link-text">GitHub</p>
                         </a>
                     </div>
                     <div class="text-center col-lg-2">
                         <a href="https://www.linkedin.com/in/pushkar4">
-                            <i class="fab fa-linkedin fa-4x"></i>
+                            <i class="fab fa-linkedin fa-3x"></i>
                             <br/>
                             <p class="link-text">LinkedIn</p>
                         </a>
@@ -75,25 +77,26 @@
                 <div class="row justify-content-center">
                     <div class="text-center col-lg">
                         <a href="index.html">
-                        <img src="img/mypic.jpg" class="rounded-circle mypic-bar" width="18%" />
+                        <img src="img/mypic.jpg" class="rounded-circle mypic-bar"/>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
         
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/8ef6f24df0.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="js/typed.js"></script>
         <script src="js/resolution-setter.js"></script>
         <script>
-//            $(function(){
-            $(document).ready(function() {
+            function renderWelcomeText() {
                 $("#typed").typed({
-                    strings: ["Hi, there...", "Welcome to my Website.", "I'm <b>Pushkar Sharma.</b>"],
+                    strings: ["Hi there...", "Welcome to my site.", "I'm <b>Pushkar Sharma.</b>"],
                     typeSpeed: 30,
-                    backDelay: 400,
+                    backDelay: 450,
                     loop: false,
                     contentType: 'html', // or text
                     // defaults to false for infinite loop
@@ -104,7 +107,11 @@
                 $(".reset").click(function(){
                     $("#typed").typed('reset');
                 });
-            });
+                function newTyped(){ /* A new typed object */ }
+                function foo(){ /* console.log("Callback"); */ }
+            };
+            
+            setTimeout(renderWelcomeText, 3000);
         </script>
     </body>
 </html>

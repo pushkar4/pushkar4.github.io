@@ -1,36 +1,3 @@
-html {
-    background-color: rgb(248,248,248);
-    color: black;
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    color: black;
-    font-family: "LatoWeb";
-    font-style: normal;
-}
-
-p {
-	color: black;
-}
-
-
-img {
-    -moz-box-shadow:    0px 0px 7px 1px black;
-    -webkit-box-shadow: 0px 0px 7px 1px black;
-    box-shadow:         0px 0px 7px 1px black;
-    margin-bottom: 15px;
-}
-
-#pointer {
-    font-size: 400%;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    //border: 1px solid black;
-}
-
 a {
     text-decoration: none;
     color: black;   
@@ -41,152 +8,43 @@ a:hover {
     color: #D64E07; 
 }
 
-#typed {
-    //color: red;
-}
-
 hr {
     color: black;
-    border-top: 1px solid black;
+    border-top: 0.1rem solid black;
 }
 
 .bannercontent {
     background-image: url('../img/wall.jpg');
     background-size: cover;
-    height: 735px;
-    background-position: center;
+    height: 42rem;
+    background-position: bottom;
 }
 
 .tagline {
-    font-size: 450%;
+    font-size: 3.7rem;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
 }
 
 .sub-tagline {
-    font-size: 250%;
+    font-size: 2.3rem;
+    margin-bottom: 0rem;
 }
 
 .link-text {
-    font-size: 130%;
-    padding-top: 10px;
-}
-
-.mypic {
-    -moz-box-shadow:    0px 0px 45px 10px black;
-    -webkit-box-shadow: 0px 0px 45px 10px black;
-    box-shadow:         0px 0px 45px 10px black;
-}
-
-.feature-box {
-    //border: 1px solid black;
-    //background-image: url('../img/wall.jpg');
-    //background-color: rgba(0,0,0,0.4);
-    background-size: cover;
-    font-size: 120%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
-}
-
-.feature-box h4 {
-    text-align: center;
-    font-size: 200%;
-}
-
-.hall-of-fame p {
-    font-size: 80%;
-    text-align: center;
-    //background-color: white;
-}
-
-.who-am-i {
-    background-image: url('../img/whoami.jpg');
-    background-size: cover;
-    background-position: bottom;
-    color: black;
-    text-align: justify;
-}
-
-.skills {
-    background-image: url('../img/skills.jpg');
-    background-size: cover;
-    background-position: top;
-    color: rgba(255,255,0,0.9);
-    color: black;
-}
-
-.hall-of-fame {
-    background-image: url('../img/halloffame.jpg');
-    background-size: cover;
-    background-position: top;
-}
-
-.contact-me {
-    background-image: url('../img/contactme.jpg');
-    background-size: cover;
-    background-position: top;
-    color: black;
-    text-align: center;
-}
-
-.white {
-    color: white;
-}
-
-.project-div {
-    height: 420px;
-    //border: 1px solid black;
-}
-
-/* Pages with sidebar styles start here. ================================================= */
-
-.bannercontent-bar {
-    background-image: url('../img/sidewall.jpg');
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
-}
-
-.tagline-bar {
-    font-size: 240%;
-}
-
-.sub-tagline-bar {
-    font-size: 130%;
-}
-
-.link-text-bar {
-    font-size: 100%;
-    padding-top: 10px;
+    font-size: 1.4rem;
+    padding-top: 0.6rem;
 }
 
 .mypic-bar {
-    -moz-box-shadow:    0px 0px 45px 10px black;
-    -webkit-box-shadow: 0px 0px 45px 10px black;
-    box-shadow:         0px 0px 45px 10px black;
+    height: 10rem;
+    -moz-box-shadow:    0rem 0rem 4rem 0.6rem black;
+    -webkit-box-shadow: 0rem 0rem 4rem 0.6rem black;
+    box-shadow:         0rem 0rem 4rem 0.6rem black;
 }
 
-.centerdiv {
-    margin: 0 auto;
-}
 
-.right-content-bar {
-    //background-color: blue;
-    //height: 100vh;
-    //width: 90%;
-    //overflow: hidden;
-}
 
-.sided::-webkit-scrollbar {
-    display: none;
-}
 
-.inside-right-content-bar {
-    height: 100vh;
-    //background-color: red;
-    overflow: scroll;
-    overflow-x: hidden;
-}
 
-.special-body {
-	overflow: hidden;
-}
+
