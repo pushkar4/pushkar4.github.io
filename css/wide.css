@@ -59,11 +59,11 @@ sidebar
 }
 
 .tagline-bar {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .sub-tagline-bar {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .centerdiv {
@@ -71,7 +71,7 @@ sidebar
 }
 
 .link-text-bar {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-top: 0.5rem;
 }
 
