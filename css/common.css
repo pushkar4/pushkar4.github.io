@@ -1,0 +1,24 @@
+/****************************************************************
+Common styles for all viewports
+****************************************************************/
+a {
+    text-decoration: none;
+    color: black;   
+}
+
+a:hover {
+    text-decoration: none;
+    color: #D64E07; 
+}
+
+hr {
+    color: black;
+    border-top: 0.08rem solid black;
+}
+
+img {
+    -moz-box-shadow:    0rem 0rem 0.6rem 0.01rem black;
+    -webkit-box-shadow: 0rem 0rem 0.6rem 0.01rem black;
+    box-shadow:         0rem 0rem 0.6rem 0.01rem black;
+}
+

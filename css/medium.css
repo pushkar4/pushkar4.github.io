@@ -1,20 +1,6 @@
-/****************************************************************
-Common styles for all viewports
-****************************************************************/
-
 a {
     text-decoration: none;
-    color: red;   
-}
-
-a:hover {
-    text-decoration: none;
-    color: #D64E07; 
-}
-
-hr {
-    color: black;
-    border-top: 0.1rem solid black;
+    color: firebrick;   
 }
 
 /****************************************************************
@@ -54,3 +40,90 @@ index.html
 .fap {
     font-size: 2.5rem;
 }
+
+
+/****************************************************************
+sidebar
+****************************************************************/
+
+.sided::-webkit-scrollbar {
+/*    display: none;*/
+}
+
+.special-body {
+	overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bannercontent-bar {
+    background-image: url('../img/sidewall.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+}
+
+.tagline-bar {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.sub-tagline-bar {
+    font-size: 1.2rem;
+}
+
+.centerdiv {
+    margin: 0 auto;
+}
+
+.link-text-bar {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.faps {
+    font-size: 2rem;
+}
+
+.mypic-sidebar {
+    height: 8rem;
+}
+
+
+/****************************************************************
+activities.html
+****************************************************************/
+
+.right-content-bar {
+    display: block;
+    height: 100vh;
+    overflow: auto;
+}
+
+.inside-right-content-bar {
+    height: 100vh;
+    overflow: auto;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+.section-head {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.section-text {
+    font-size: 1.3rem;
+}
+
+.my-card {
+    margin-top: 2rem;
+}
+
+.card-head {
+    font-size: 1.4rem;
+}
+
+
+
+
