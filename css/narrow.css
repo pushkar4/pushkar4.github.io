@@ -90,9 +90,7 @@ activities.html
 ****************************************************************/
 
 .right-content-bar {
-    display: block;
     height: 100vh;
-    overflow: auto;
 }
 
 .inside-right-content-bar {
@@ -117,7 +115,10 @@ activities.html
 
 .card-head {
     font-size: 1.4rem;
+    font-size: 0.9rem;
 }
+
+
 
 
 
