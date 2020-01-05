@@ -91,12 +91,12 @@ activities.html
 
 .right-content-bar {
     display: block;
-    height: 98vh;
+    height: 100vh;
     overflow: auto;
 }
 
 .inside-right-content-bar {
-    height: 98vh;
+    height: 100vh;
     overflow: auto;
     padding-left: 0.5rem;
     padding-right: 1rem;
