@@ -2,34 +2,45 @@
 index.html
 ****************************************************************/
 
-.bannercontent {
+html {
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.index-body {
+    height: 110vh;
     background-image: url('../img/wall.jpg');
-    background-size: cover;
-    height: 35rem;
-    background-position: bottom;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .tagline {
     font-size: 2rem;
     margin-top: 5rem;
     margin-bottom: 0rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sub-tagline {
     font-size: 1.2rem;
     margin-bottom: 0rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .link-text {
     font-size: 1rem;
     padding-top: 0.6rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .mypic-bar {
     height: 10rem;
-    -moz-box-shadow:    0rem 0rem 4rem 0.6rem black;
-    -webkit-box-shadow: 0rem 0rem 4rem 0.6rem black;
-    box-shadow:         0rem 0rem 4rem 0.6rem black;
+    -moz-box-shadow:    0rem 0rem 10rem 0.1rem black;
+    -webkit-box-shadow: 0rem 0rem 10rem 0.1rem black;
+    box-shadow:         0rem 0rem 10rem 0.1rem black;
 }
 
 .fap {
@@ -52,19 +63,22 @@ sidebar
 }
 
 .bannercontent-bar {
-    background-image: url('../img/sidewall.jpg');
+    /*background-image: linear-gradient(270deg, rgba(176, 42, 42, .16) 0%, rgba(176, 42, 42, .56) 18.45%, rgba(176, 42, 42, .8) 49.67%, rgba(176, 42, 42, .56) 82.52%, rgba(176, 42, 42, .196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, .16) 99.73%), url('../img/sidewall.jpg');*/
+    background-image: radial-gradient(rgba(176, 42, 42, .16) 10%, rgba(176, 42, 42, .56) 90%), url('../img/sidewall.jpg');
     background-size: cover;
     height: 100vh;
-    background-position: bottom;
+    background-position: left;
 }
 
 .tagline-bar {
     font-size: 1rem;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sub-tagline-bar {
     font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .centerdiv {
@@ -74,6 +88,7 @@ sidebar
 .link-text-bar {
     font-size: 0rem;
     padding-top: 0.5rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .faps {
@@ -91,6 +106,7 @@ activities.html
 
 .right-content-bar {
     height: 100vh;
+    color: black;
 }
 
 .inside-right-content-bar {
@@ -103,23 +119,28 @@ activities.html
 .section-head {
     font-size: 2rem;
     margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .section-text {
     font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .my-card {
     margin-top: 2rem;
 }
 
+.my-card a {
+    color: black;
+}
+
+.my-card a:hover {
+    color: #D64E07;
+}
+
 .card-head {
     font-size: 1.4rem;
     font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
 }
-
-
-
-
-
-

@@ -3,12 +3,12 @@ Common styles for all viewports
 ****************************************************************/
 a {
     text-decoration: none;
-    color: black;   
+    color: white;
 }
 
 a:hover {
     text-decoration: none;
-    color: #D64E07; 
+    color: #FFC329;
 }
 
 hr {
@@ -20,4 +20,9 @@ img {
     -moz-box-shadow:    0rem 0rem 0.6rem 0.01rem black;
     -webkit-box-shadow: 0rem 0rem 0.6rem 0.01rem black;
     box-shadow:         0rem 0rem 0.6rem 0.01rem black;
+}
+
+html, body {
+    color: white;
+    font-family: 'Arimo', sans-serif;
 }
