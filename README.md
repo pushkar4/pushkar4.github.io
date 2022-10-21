@@ -1,3 +1,4 @@
-Renewing my website with latest web-tech.
+My Portfolio website created using only HTML, CSS, JS.
 
-For favicon: https://favicon.io/favicon-converter/
+Used this for favicon:
+https://favicon.io/favicon-converter/
