@@ -26,3 +26,7 @@ html, body {
     color: white;
     font-family: 'Arimo', sans-serif;
 }
+
+.yt-frame {
+    margin-right: 1rem;
+}
