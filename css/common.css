@@ -17,9 +17,9 @@ hr {
 }
 
 img {
-    -moz-box-shadow:    0rem 0rem 0.6rem 0.01rem black;
-    -webkit-box-shadow: 0rem 0rem 0.6rem 0.01rem black;
-    box-shadow:         0rem 0rem 0.6rem 0.01rem black;
+    -moz-box-shadow:    0rem 0rem 0.3rem 0.001rem darkgray;
+    -webkit-box-shadow: 0rem 0rem 0.3rem 0.001rem darkgray;
+    box-shadow:         0rem 0rem 0.3rem 0.001rem darkgray;
 }
 
 html, body {
@@ -30,7 +30,7 @@ html, body {
 .yt-frame {
     margin-left: 0.9rem;
     margin-right: 0.9rem;
-    -moz-box-shadow:    0rem 0rem 0.6rem 0.01rem black;
-    -webkit-box-shadow: 0rem 0rem 0.6rem 0.01rem black;
-    box-shadow:         0rem 0rem 0.6rem 0.01rem black;
+    -moz-box-shadow:    0rem 0rem 0.3rem 0.001rem darkgray;
+    -webkit-box-shadow: 0rem 0rem 0.3rem 0.001rem darkgray;
+    box-shadow:         0rem 0rem 0.3rem 0.001rem darkgray;
 }
