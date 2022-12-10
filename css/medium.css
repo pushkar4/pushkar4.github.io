@@ -19,37 +19,32 @@ html {
 }
 
 .tagline {
-    font-size: 3.3rem;
     font-size: 7vh;
     margin-top: 5rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 .sub-tagline {
-    font-size: 1.7rem;
     font-size: 4vh;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 .link-text {
-    font-size: 1rem;
     font-size: 2.5vh;
     padding-top: 0.6rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .mypic-bar {
-    height: 10rem;
     height: 18vh;
-    -moz-box-shadow:    0rem 0rem 10rem 0.1rem black;
-    -webkit-box-shadow: 0rem 0rem 10rem 0.1rem black;
-    box-shadow:         0rem 0rem 10rem 0.1rem black;
+    -moz-box-shadow:    0 0 10rem 0.1rem black;
+    -webkit-box-shadow: 0 0 10rem 0.1rem black;
+    box-shadow:         0 0 10rem 0.1rem black;
 }
 
 .fap {
-    font-size: 2.5rem;
     font-size: 5vh;
 }
 
@@ -102,11 +97,14 @@ sidebar
 
 .mypic-sidebar {
     height: 8rem;
-    -moz-box-shadow:    0rem 0rem 10rem 0.1rem black;
-    -webkit-box-shadow: 0rem 0rem 10rem 0.1rem black;
-    box-shadow:         0rem 0rem 10rem 0.1rem black;
+    -moz-box-shadow:    0 0 10rem 0.1rem black;
+    -webkit-box-shadow: 0 0 10rem 0.1rem black;
+    box-shadow:         0 0 10rem 0.1rem black;
 }
 
+.cursive {
+    font-size: 9vh;
+}
 
 /****************************************************************
 activities.html

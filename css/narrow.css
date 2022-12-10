@@ -20,13 +20,13 @@ html {
 .tagline {
     font-size: 2rem;
     margin-top: 5rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 .sub-tagline {
     font-size: 1.2rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,15 +38,18 @@ html {
 
 .mypic-bar {
     height: 10rem;
-    -moz-box-shadow:    0rem 0rem 10rem 0.1rem black;
-    -webkit-box-shadow: 0rem 0rem 10rem 0.1rem black;
-    box-shadow:         0rem 0rem 10rem 0.1rem black;
+    -moz-box-shadow:    0 0 10rem 0.1rem black;
+    -webkit-box-shadow: 0 0 10rem 0.1rem black;
+    box-shadow:         0 0 10rem 0.1rem black;
 }
 
 .fap {
     font-size: 2rem;
 }
 
+.cursive {
+    font-size: 3.3rem;
+}
 
 /****************************************************************
 sidebar
@@ -85,7 +88,7 @@ sidebar
 }
 
 .link-text-bar {
-    font-size: 0rem;
+    font-size: 0;
     padding-top: 0.5rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -141,7 +144,6 @@ activities.html
 }
 
 .card-head {
-    font-size: 1.4rem;
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
 }
