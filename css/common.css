@@ -63,3 +63,7 @@ html, body {
 .cursive, .cursive-small {
     font-family: 'Dancing Script', 'Poppins', sans-serif;
 }
+
+.cursive:hover, .cursive-small:hover {
+    color: #FFC329;
+}
